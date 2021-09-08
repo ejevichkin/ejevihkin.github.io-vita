@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aptekaVita</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+                <nav>
+                    <ul class="header__menu">
+                        <li class="header__menu-item">Преимущества</li>
+                        <li class="header__menu-item">Тесты COVID-19</li>
+                        <li class="header__menu-item">Акции</li>
+                        <li class="header__menu-item">Контакты</li>
+                        <li class="header__menu-item">Заказать лекарства</li>
+                    </ul>
+                </nav>
+            
+            <div class="subheader">
+                <a href="#" class="subheader__logo">
+                    <img src="icons/logo.svg" alt="logo">
+                </a>
+                <div class="subheader__messengers">
+                    <a href="#"><img src="icons/whatsapp.svg" alt="whatsapp"></a>
+                    <a href="#"><img src="icons/viber.svg" alt="viber"></a>
+                    <a href="#"><img src="icons/telegram.svg" alt="telegram"></a>
+                </div>
+                <div class="subheader__contacts">
+                    <a href="tel:+74955585181" class="header__phone">+7(495)558-51-81</a>
+                </div>
+                    <form class="feed-form" action="#">
+                        <input name="phone" required placeholder="Введите Ваш номер телефона">
+                        <button class="button">Заказать звонок</button>
+                    </form>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="main__title">
+            <h1 class="title">Лекарства под заказ</h1>
+            <div class="subtitle">в наличии на следующий день</div>
+            </div>
+            <form class="feed-form" action="#">
+                <input name="name" required placeholder="Введите название лекарства" type="text">
+                <input name="phone" required placeholder="Введите Ваш номер телефона">
+                <button class="button">Узнать цену</button>
+            </form>
+        </div>
+    </section>
+    <section class="catalog">
+        <div class="container">
+            <h2 class="title" id="catalog">популярные товары</h2>
+            <ul class="catalog__tabs">
+                <li class="catalog__tab catalog__tab_active"><div>тесты covid-19</div></li>
+                <li class="catalog__tab"><div>акции</div></li>
+            </ul>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="icons/lepu.png" alt="test" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Экспресс-тест на антиген Lecurate - Lepu AG <br>
+                                (Аналог ПЦР)</div>
+                            <!-- <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div> -->
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                            
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="icons/lecurate.png" alt="test" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Экспресс-тест Leccurate на антитела IgG / IgM к коронавирусу SARS-CoV2</div>
+                            <!-- <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div> -->
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                            
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="icons/scrining.png" alt="test" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Скрининг тест на антиген Ag 
+                                (Аналог ПЦР)</div>
+                            <!-- <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div> -->
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                            
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="" alt="pulsometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
+                            <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div>
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                            
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        <button class="button button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
