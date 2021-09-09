@@ -9,19 +9,26 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
+    <header>
+        
+            <div class="header__nav">
+                <div class="container">
                 <nav>
                     <ul class="header__menu">
                         <li class="header__menu-item">Преимущества</li>
                         <li class="header__menu-item">Тесты COVID-19</li>
                         <li class="header__menu-item">Акции</li>
                         <li class="header__menu-item">Контакты</li>
+                        <li class="header__menu-item">Лицензия</li>
                         <li class="header__menu-item">Заказать лекарства</li>
                     </ul>
-                </nav>
-            
+                </nav> 
+                </div>
+            </div>
+        
             <div class="subheader">
+                <div class="container">
+                    <div class="subheader__content">
                 <a href="#" class="subheader__logo">
                     <img src="icons/logo.svg" alt="logo">
                 </a>
@@ -37,8 +44,9 @@
                         <input name="phone" required placeholder="Введите Ваш номер телефона">
                         <button class="button">Заказать звонок</button>
                     </form>
-            </div>
-        </div>
+                </div>
+                </div>
+            </div>   
     </header>
     <section class="main">
         <div class="container">
@@ -55,12 +63,12 @@
     </section>
     <section class="catalog">
         <div class="container">
-            <h2 class="title" id="catalog">популярные товары</h2>
+            <h2 class="title__title" id="catalog">популярные товары</h2>
             <ul class="catalog__tabs">
                 <li class="catalog__tab catalog__tab_active"><div>тесты covid-19</div></li>
                 <li class="catalog__tab"><div>акции</div></li>
             </ul>
-            <div class="catalog__content">
+            <div class="catalog__content catalog__content_active">
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
@@ -86,7 +94,7 @@
                             <div class="catalog-item__old-price">4 750 руб.</div>
                             <div class="catalog-item__price">4 500 руб.</div>
                         </div>
-                        <button class="button button_mini">КУПИТЬ</button>
+                        <button class="button_mini">КУПИТЬ</button>
                     </div>
                 </div>
                 <div class="catalog-item">
@@ -113,7 +121,7 @@
                             <div class="catalog-item__old-price">4 750 руб.</div>
                             <div class="catalog-item__price">4 500 руб.</div>
                         </div>
-                        <button class="button button_mini">КУПИТЬ</button>
+                        <button class="button_mini">КУПИТЬ</button>
                     </div>
                 </div>
                 <div class="catalog-item">
@@ -141,7 +149,7 @@
                             <div class="catalog-item__old-price">4 750 руб.</div>
                             <div class="catalog-item__price">4 500 руб.</div>
                         </div>
-                        <button class="button button_mini">КУПИТЬ</button>
+                        <button class="button_mini">КУПИТЬ</button>
                     </div>
                 </div>
                 <div class="catalog-item">
@@ -168,12 +176,288 @@
                             <div class="catalog-item__old-price">4 750 руб.</div>
                             <div class="catalog-item__price">4 500 руб.</div>
                         </div>
-                        <button class="button button_mini">КУПИТЬ</button>
+                        <button class="button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__content">
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="icons/lepu.png" alt="test" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">CJCJJCJCJCJCJJC</div>
+                            <!-- <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div> -->
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                            
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        <button class="button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="icons/lecurate.png" alt="test" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">kckckckckkcck</div>
+                            <!-- <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div> -->
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                            
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        <button class="button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="icons/scrining.png" alt="test" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">dkdkdkkdkdkdkdkd</div>
+                            <!-- <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div> -->
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                            
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        <button class="button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="" alt="pulsometr" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Пульсометр Polar FT1</div>
+                            <!-- <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div> -->
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                            
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        <button class="button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="icons/lepu.png" alt="test" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Экспресс-тест на антиген Lecurate - Lepu AG <br>
+                                (Аналог ПЦР)</div>
+                            <!-- <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div> -->
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                            
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        <button class="button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="icons/lepu.png" alt="test" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Экспресс-тест на антиген Lecurate - Lepu AG <br>
+                                (Аналог ПЦР)</div>
+                            <!-- <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div> -->
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                            
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        <button class="button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="icons/lepu.png" alt="test" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Экспресс-тест на антиген Lecurate - Lepu AG <br>
+                                (Аналог ПЦР)</div>
+                            <!-- <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div> -->
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                            
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        <button class="button_mini">КУПИТЬ</button>
+                    </div>
+                </div>
+                <div class="catalog-item">
+                    <div class="catalog-item__wrapper">
+                        <div class="catalog-item__content catalog-item__content_active">
+                            <img src="icons/lepu.png" alt="test" class="catalog-item__img">
+                            <div class="catalog-item__subtitle">Экспресс-тест на антиген Lecurate - Lepu AG <br>
+                                (Аналог ПЦР)</div>
+                            <!-- <div class="catalog-item__descr">Для первых шагов в тренировках, основанных на сердечном ритме</div> -->
+                            <a href="" class="catalog-item__link">ПОДРОБНЕЕ</a>
+                        </div>
+                        <ul class="catalog-item__list">
+                            <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
+                            <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
+                            <li>Также Вы увидите информацию о расходе калорий за тренировку;</li>
+                            <li>Вы сможете посмотреть данные по 10 тренировкам.</li>
+                            <a href="#" class="catalog-item__back">назад</a>
+                            
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog-item__footer">
+                        <div class="catalog-item__prices">
+                            <div class="catalog-item__old-price">4 750 руб.</div>
+                            <div class="catalog-item__price">4 500 руб.</div>
+                        </div>
+                        <button class="button_mini">КУПИТЬ</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    
+    <section class="advantages">
+        <div class="container">
+            <h2 class="title__title" id="catalog">наши преимущества</h2>
+            <div class="advantages__wrapper">
+                <div class="advantages__item">
+                    <img src="icons/clock.svg" alt="cup">
+                    <div class="advantages__subtitle">
+                        Делимся опытом
+                    </div>
+                        <div class="advantages__descr">
+                            Наш профессиональный подход подтверждается наличием у всех фармацевтов профильного образования и опыта работы от 10 лет!
+
+                        </div>
+                </div>    
+                
+                <div class="advantages__item">
+                    <img src="icons/heart.svg" alt="heart">
+                    <div class="advantages__subtitle">
+                        Заботимся о здоровье
+                    </div>
+                        <div class="advantages__descr">
+                            Окажем квалифицированную консультацию при подборе лекарственных препаратов , чтобы ваше лечение было максимально быстрым и безопасным!
+
+                        </div>
+                </div>    
+
+                <div class="advantages__item">
+                    <img src="icons/wallet.svg" alt="">
+                    <div class="advantages__subtitle">
+                        Экономим бюджет
+                    </div>
+                        <div class="advantages__descr">
+                            Отсутствие длинной цепочки посредников и наличие акций делает покупку лекарств в нашей аптеке максимально выгодной для вас!
+                        </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <section class="license">
+        <div class="container">
+            <h2 class="title__title" id="catalog">Лицензия на фармацевтическую деятельность</h2>
+            <img src="" alt="license">
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="container">
+            <h2 class="title__title">Мы на карте</h2>
+        <div class="footer__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.212741144853!2d37.88632744660635!3d55.70325824617753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1857ca5fdf4b480c!2z0J7QntCeICog0JLQmNCi0JAqINCw0L_RgtC10LrQsA!5e0!3m2!1sru!2sru!4v1630076294574!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
