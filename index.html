@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aptekaVita</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link href="css/lightbox.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -457,19 +458,29 @@
     <section class="license">
         <div class="container">
             <h2 class="title__title" id="catalog">Лицензия на фармацевтическую деятельность</h2>
-            <img src="" alt="license">
+            <!-- <img src="img/license-one.png" alt="license"> -->
+            <div class="license__photo">
+                <a class="license-link" href="img/license-one.png" data-lightbox="license">
+                    <img class="license-mini" src="img/license-one.png" alt="license">
+                </a>
+                <a class="license-link" href="img/license-two.png" data-lightbox="license">
+                    <img class="license-mini" src="img/license-one.png" alt="license">
+                </a>
+            </div>
+            
         </div>
     </section>
-    <section class="contacts">
+    <section class="map">
         <div class="container">
             <h2 class="title__title">Мы на карте</h2>
-        <div class="footer__map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3246.212741144853!2d37.88632744660635!3d55.70325824617753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1857ca5fdf4b480c!2z0J7QntCeICog0JLQmNCi0JAqINCw0L_RgtC10LrQsA!5e0!3m2!1sru!2sru!4v1630076294574!5m2!1sru!2sru" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <div class="map__yandex">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6f7b63036cf9dd6e20d13d139aa63857e1130a11773a283591c3c1022deaf751&amp;source=constructor" frameborder="0"></iframe>
         </div>
         </div>
     </section>
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
