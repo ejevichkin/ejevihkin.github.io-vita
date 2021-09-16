@@ -6,60 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aptekaVita</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link href="css/lightbox.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
     <header>
-        
-            <div class="header__nav">
+        <div class="header__nav">   
+            <nav>
                 <div class="container">
-                <nav>
-                    <ul class="header__menu">
+                    <ul class="header__menu header__menu_active">
                         <li class="header__menu-item">
-                            <a href="#" class="menu_link">Преимущества</a>
+                            <a href="#" class="header__menu_link">Преимущества</a>
                         </li>
                         <li class="header__menu-item">
-                            <a href="#" class="menu_link">Тесты COVID-19</a>
+                            <a href="#" class="header__menu_link">Тесты COVID-19</a>
                         </li>
                         <li class="header__menu-item">
-                            <a href="#" class="menu_link">Акции</a> 
+                            <a href="#" class="header__menu_link">Акции</a> 
                         </li>
                         <li class="header__menu-item">
-                            <a href="#" class="menu_link">Контакты</a> 
+                            <a href="#" class="header__menu_link">Контакты</a> 
                         </li>
                         <li class="header__menu-item">
-                            <a href="#" class="menu_link">Лицензия</a> 
+                            <a href="#" class="header__menu_link">Лицензия</a> 
                         </li>
                         <li class="header__menu-item">
-                            <a href="#" class="menu_link">Заказать лекарства</a> 
+                            <a href="#" class="header__menu_link">Заказать лекарства</a> 
                         </li>
                     </ul>
-                </nav> 
                 </div>
-            </div>
-        
+                <div class="hamburger hamburger_active">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav> 
+        </div>
             <div class="subheader">
-                <div class="container">
-                    <div class="subheader__content">
-                <a href="#" class="subheader__logo">
-                    <img src="icons/logo.svg" alt="logo">
-                </a>
-                <div class="subheader__messengers">
-                    <a href="#"><img src="icons/whatsapp.svg" alt="whatsapp"></a>
-                    <a href="#"><img src="icons/viber.svg" alt="viber"></a>
-                    <a href="#"><img src="icons/telegram.svg" alt="telegram"></a>
-                </div>
-                <div class="subheader__contacts">
-                    <a href="tel:+74955585181" class="header__phone">+7(495)558-51-81</a>
-                </div>
-                    <form class="feed-form" action="#">
-                        <input name="phone" required placeholder="Введите Ваш номер телефона">
-                        <button class="button">Заказать звонок</button>
-                    </form>
-                </div>
-                </div>
-            </div>   
+                <div class="container"> 
+                    <div class="row">
+                        <div class="logo col-4 col-xl-3">
+                            <a href="#" class="row__logo">
+                                <img src="icons/logo.svg" alt="logo">
+                        </a>
+                    </div>
+                    <div class="row__messengers col-4 col-xl-2 ">
+                        <a href="#"><img src="icons/whatsapp.svg" alt="whatsapp"></a>
+                        <a href="#"><img src="icons/viber.svg" alt="viber"></a>
+                        <a href="#"><img src="icons/telegram.svg" alt="telegram"></a>
+                    </div>
+                    <div class="row__contacts xs-hidden col-xl-3">
+                        <a href="tel:+74955585181" class="header__phone">+7(495)558-51-81</a>
+                    </div>
+                     <div class="row__phone col-4 col-xl-4">
+                        <a href="tel:+74955585181" class="xs-visible header__phone">+7(495)558-51-81</a>
+                        <form class="feed-form" action="#">
+                            <input name="phone" required placeholder="Введите Ваш номер телефона">
+                            <button class="button">Заказать звонок</button> 
+                        </form>
+                    </div>
+                    </div>
+                </div>  
+            </div> 
     </header>
     <section class="main">
         <div class="container">
@@ -470,14 +479,14 @@
             
         </div>
     </section>
-    <section class="map">
+    <!-- <section class="map">
         <div class="container">
             <h2 class="title__title">Мы на карте</h2>
         <div class="map__yandex">
             <a href="https://yandex.ru/maps/-/CCUmVZSVtB" target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A6f7b63036cf9dd6e20d13d139aa63857e1130a11773a283591c3c1022deaf751&amp;width=600&amp;height=450&amp;lang=ru_RU" alt="" style="border: 0;" /></a>
         </div>
         </div>
-    </section>
+    </section> -->
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/lightbox.min.js"></script>
