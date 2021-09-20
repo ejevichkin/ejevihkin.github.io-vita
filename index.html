@@ -60,11 +60,11 @@
                     <div class="row__contacts col-6 col-xl-3">
                         <a href="tel:+74955585181" class="header__phone">+7(495)558-51-81</a>
                     </div>
-                     <div class="row__phone col-12 col-xl-4">
+                     <div class="row__phone col-12 col-xl-4" >
                         <!-- <a href="tel:+74955585181" class="xs-visible header__phone">+7(495)558-51-81</a> -->
-                        <form class="feed-form" action="#">
+                        <form id="call_me" class="phone_form" action="#">
                             <input name="phone" required placeholder="Введите Ваш номер телефона">
-                            <button class="button">Заказать звонок</button> 
+                            <button data-modal="thanks" class="button">Заказать звонок</button> 
                         </form>
                     </div>
                     </div>
@@ -77,10 +77,10 @@
             <h1 class="title">Лекарства под заказ</h1>
             <div class="subtitle">в наличии на следующий день</div>
             </div>
-            <form class="feed-form" action="#">
+            <form id="consultation-form" class="feed-form_main" action="#">
                 <input name="name" required placeholder="Введите название лекарства" type="text">
                 <input name="phone" required placeholder="Введите Ваш номер телефона">
-                <button class="button">Узнать цену</button>
+                <button data-modal="thanks" class="button">Узнать цену</button>
             </form>
         </div>
     </section>
@@ -504,12 +504,43 @@
                 от станции метро "Выхино" первый вагон из центра, выход №4, далее автобус №501 либо №888. Выходить на остановке ул. 8 марта (Троицкая церковь).
             </div>
         </div>
-        
         </div>
     </section>
+
+    <div class="overlay">
+        <div class="modal" id="order">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Ваш заказ</div>
+            <div class="modal__descr"></div>
+            <form class="feed-form_main mt_25" action="#">
+                <input name="name" required placeholder="Введите Ваше имя" type="text">
+                <input name="phone" required placeholder="Введите Ваш номер телефона">
+                <button class="button">Купить</button>
+            </form>
+        </div>
+
+        <div class="modal" id="consultation">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Заполните форму</div>
+            <div class="modal__descr">и мы перезвоним Вам в течении 20 минут</div>
+            <form class="feed-form_main mt_25" action="#">
+                <input name="name" required placeholder="Введите Ваше имя" type="text">
+                <input name="phone" required placeholder="Введите Ваш номер телефона">
+                <button class="button">Узнать цену</button>
+            </form>
+        </div>
+
+        <div class="modal modal_mini mt_25" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Спасибо за Вашу заявку</div>
+            <div class="modal__descr">Фармацевт свяжется с Вами в ближайшее время!</div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/lightbox.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
